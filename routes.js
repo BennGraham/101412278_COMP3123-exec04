@@ -10,8 +10,8 @@ router.get("/hello", (req, res) => {
 });
 
 router.get("/user", (req, res) => {
-  const firstname = req.query.firstname || "Pritesh";
-  const lastname = req.query.lastname || "Patel";
+  const firstname = req.query.firstname || "Benn";
+  const lastname = req.query.lastname || "Graham";
   res.json({ firstname, lastname });
 });
 
